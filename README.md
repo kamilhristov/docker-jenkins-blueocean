@@ -1,4 +1,4 @@
-# Jenkins alpine image with Blue Ocean UI.
+# Jenkins Blue Ocean
 
 [![Build Status](https://travis-ci.org/kamilhristov/docker-jenkins-blueocean.svg?branch=master)](https://travis-ci.org/kamilhristov/docker-jenkins-blueocean)
 
