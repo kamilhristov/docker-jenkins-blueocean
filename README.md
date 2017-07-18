@@ -1,1 +1,1 @@
-# docker-jenkins-blueocean
+# Jenkins alpine image with blueocean UI.
