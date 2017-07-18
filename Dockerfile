@@ -1,14 +1,12 @@
-FROM jenkins:latest
+FROM jenkins:2.60.1
 
 USER root
-
-RUN apt-get update \
-      && apt-get install -y git-core \
-      && rm -rf /var/lib/apt/lists/*
 
 RUN curl -SL https://get.docker.com/builds/Linux/x86_64/docker-17.03.1-ce.tgz \
     | tar -zx --strip-components=1 -C /usr/local/bin \
     && chmod +x /usr/local/bin/docker
+
+USER jenkins
  
 ENV PATH="/usr/local/docker:$PATH"
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
