@@ -1,5 +1,11 @@
 # Jenkins Blue Ocean
 
-[![Build Status](https://travis-ci.org/kamilhristov/docker-jenkins-blueocean.svg?branch=master)](https://travis-ci.org/kamilhristov/docker-jenkins-blueocean)
+Jenkins alpine version with Blue Ocean UI.
 
-Repository for the Docker image at [khristov/jenkins-blueocean](https://hub.docker.com/r/khristov/jenkins-blueocean/).
+# Docker Image
+
+[![](https://images.microbadger.com/badges/image/khristov/jenkins-blueocean.svg)](https://microbadger.com/images/khristov/jenkins-blueocean "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/khristov/jenkins-blueocean.svg)](https://microbadger.com/images/khristov/jenkins-blueocean "Get your own version badge on microbadger.com")
+
+# Build
+
+[![Build Status](https://travis-ci.org/kamilhristov/docker-jenkins-blueocean.svg?branch=master)](https://travis-ci.org/kamilhristov/docker-jenkins-blueocean) 
